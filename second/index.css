@@ -1,0 +1,79 @@
+body{
+    padding: 20px;
+    margin: 0;
+}
+
+.top{
+    border: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.rectangle{
+    background-color: blueviolet;
+    height: 150px;
+    width: 50px;
+    display: inline-block;
+    
+}
+
+.rectangle-two{
+    background-color: green;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    margin: 0 50px;
+}
+
+.circle{
+    background-color: skyblue;
+    shape-outside: circle;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.middle{
+    border: dotted;
+    border-width: 5px;
+    border-color: black;
+    width: 100%; 
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding: 50px;
+   
+}
+
+.shadow-box{
+    background-color: #fffacd;
+    height: 200px;
+    width: 100%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0 black;
+}
+
+.bottom{
+    border: solid;
+    border-width: 1px;
+    border-color: grey;
+    background-color: white;
+    box-sizing: border-box;
+    width: 50%;
+    margin: 25px auto;
+    padding: 100px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+    box-shadow: 3px 3px 5px 0 lightgrey; 
+}
+
+.bottom h1{
+    color: navy;
+    text-align: center;
+    letter-spacing: 10px;
+    width: 100%;
+}
